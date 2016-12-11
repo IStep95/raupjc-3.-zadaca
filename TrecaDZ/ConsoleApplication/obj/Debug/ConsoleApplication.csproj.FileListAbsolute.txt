@@ -1,0 +1,12 @@
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\ClassLibrary.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\EntityFramework.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\ClassLibrary.pdb
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\EntityFramework.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Ivo\Documents\Visual Studio 2015\Projects\TrecaDZ\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

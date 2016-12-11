@@ -1,0 +1,35 @@
+@model List<ClassLibrary.TodoItem>
+
+@{
+    ViewData["Title"] = "Completed";
+}
+
+<h1>Completed Todo:</h1>
+<hr>
+
+<form asp-action="Completed">
+    <div class="form-horizontal">
+    </div>
+</form>
+
+@foreach (var todoitem in Model)
+{
+
+    @if (todoitem.IsCompleted)
+    {
+        <h3>@todoitem.Text</h3>
+
+        <text>Date Created:</text> 
+        <div>@todoitem.DateCreated</div>
+
+        <text>Date Completed:</text>
+        <div>@todoitem.DateCompleted</div>
+    }
+}
+
+<p></p>
+<div>
+    <a asp-action="Index">Back to Active todos</a>
+</div>
+
+

@@ -1,0 +1,38 @@
+@model List<ClassLibrary.TodoItem>
+
+    <h1>Active Todo</h1>
+
+    <form asp-action="Todo">
+        <div class="form-horizontal">    
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-5">
+                    <a asp-action="add">Add new todo</a>
+                    <a asp-action="completed">See completed todos</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div>
+
+        @foreach (var todoitem in Model)
+        {
+
+            @if (!todoitem.IsCompleted)
+            {
+                <h2>@todoitem.Text</h2>
+                <div>@todoitem.DateCreated</div>
+                <div>
+                    <a asp-action="MarkAsCompleted" asp-route-todoId="@todoitem.Id">Mark as completed <span class="glyphicon glyphicon-ok"></span></a>
+                </div>
+            }
+
+         }
+
+
+    </div>
+    <p></p>
+    <div>
+        <a asp-area="" asp-controller="Home" asp-action="Index">Back to Home</a>
+    </div>
